@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICCV on Levy Gabriel</title>
+    <link>http://localhost:1313/venue/iccv/</link>
+    <description>Recent content in ICCV on Levy Gabriel</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/venue/iccv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Segment Anything</title>
+      <link>http://localhost:1313/posts/post-3/</link>
+      <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post-3/</guid>
+      <description>&lt;p&gt;We introduce the Segment Anything (SA) project: a new task, model, and dataset for image segmentation. Using our efficient model in a data collection loop, we built the largest segmentation dataset to date (by far), with over 1 billion masks on 11M licensed and privacy respecting images. The model is designed and trained to be promptable, so it can transfer zero-shot to new image distributions and tasks. We evaluate its capabilities on numerous tasks and find that its zero-shot performance is impressive -- often competitive with or even superior to prior fully supervised results. We are releasing the Segment Anything Model (SAM) and corresponding dataset (SA-1B) of 1B masks and 11M images at &lt;a href=&#34;https://segment-anything.com&#34;&gt;segment-anything.com&lt;/a&gt; to foster research into foundation models for computer vision.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

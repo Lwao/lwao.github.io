@@ -1,0 +1,93 @@
+baseURL = "https://www.john.doe/"
+languageCode = "en-us"
+title = "Levy Gabriel"
+theme = "Scholar-Lite"
+
+[module]
+    [[module.imports]]
+      path = "Scholar-Lite"
+      [[module.imports.mounts]]
+        source = "archetypes"
+        target = "archetypes"
+      [[module.imports.mounts]]
+        source = "assets"
+        target = "assets"
+      [[module.imports.mounts]]
+        source = "layouts"
+        target = "layouts"
+      [[module.imports.mounts]]
+        source = "static"
+        target = "static"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      hardWraps = false
+      xhtml = false
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+      wrapStandAloneImageWithinParagraph = false
+    [markup.goldmark.extensions]
+      typographer = false
+      linkify = false
+      strikethrough = false
+      definitionList = false
+      footnote = false
+      table = true
+      taskList = false
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['$$', '$$'], ['\\[', '\\]']]
+        inline = [['$', '$'], ['\\(', '\\)']]
+  [markup.highlight]
+    style = 'github'
+    lineNos = false
+    lineNumbersInTable = false
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ''
+    hl_inline = false
+    noClasses = false
+    noHl = false
+    tabWidth = 4
+
+[taxonomies]
+  venue = "venue"
+  tag = "tags"
+
+[params]
+  profilePhoto = "/images/profile.jpg"
+  bio = """I build reliable embedded systems ranging from real-time applications on hardware-constrained devices to high-performance applications on high-end devices.
+  <br><br>
+  I managed that by designing, debugging, optimizing and delivering fully working solutions combining hardware, firmware, and software.
+  <br><br>
+  My expertise includes:
+  <ul>
+    <li>Android OS and Kernel/BSP troubleshooting</li>
+    <li>Embedded Linux and RTOS development</li>
+    <li>AI, IoT, AIoT and DSP solutions design</li>
+  </ul>
+  """
+
+  # Social Media
+  [[params.social]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/levygsg/"
+
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/Lwao/"
+
+  [[params.social]]
+    name = "Email"
+    url = "mailto:levygsg@outlook.com"
+
+
+  #[[params.social]]
+  #  name = "YouTube"
+  #  url = "https://www.youtube.com/@yourchannel"
